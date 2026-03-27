@@ -1,0 +1,1 @@
+import{a as c}from"./index.CASokwIO.js";const t=c([]);function e(i){const n=t.get();t.set([{...i,timestamp:new Date},...n.slice(0,49)])}function s(i){const n=t.get();t.set(n.filter(o=>o.id!==i))}export{e as a,s as c,t as i};

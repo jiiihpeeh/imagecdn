@@ -1,0 +1,1 @@
+import{n as t}from"./ui.CpIWZVPL.js";const e=document.getElementById("blog-section");function n(a){e&&(a==="expanded"?e.classList.add("navbar-expanded"):e.classList.remove("navbar-expanded"))}n(t.get());t.subscribe(n);

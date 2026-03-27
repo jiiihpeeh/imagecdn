@@ -1,0 +1,1 @@
+import{a as e}from"./session.DJGkCekN.js";const o=localStorage.getItem("session");if(o)try{const s=JSON.parse(o);e(s)}catch(s){console.error("Failed to parse session from localStorage",s),localStorage.removeItem("session")}
